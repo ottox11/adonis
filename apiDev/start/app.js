@@ -34,6 +34,11 @@ const aceProviders = [
   '@adonisjs/lucid/providers/MigrationsProvider'
 ]
 
+const providers = [
+  '@adonisjs/lucid/providers/LucidProvider'
+]
+
+
 /*
 |--------------------------------------------------------------------------
 | Aliases
@@ -59,3 +64,4 @@ const aliases = {}
 const commands = []
 
 module.exports = { providers, aceProviders, aliases, commands }
+
