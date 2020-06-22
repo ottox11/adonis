@@ -1,0 +1,30 @@
+1	id	int			
+2	name	varchar(45)	_ai_ci	NO	NULL			
+3	lastname	varchar(45)	_ai_ci	NO	NULL			
+23	dni	varchar(45)	_ai_ci	YES	NULL			
+8	mail	varchar(45)	_ai_ci	NO	NULL			
+9	birthday	datetime	
+4	registration	varchar(45)	_ai_ci	NO	NULL			
+5	celular_phone	varchar(45)	_ai_ci	NO	NULL			
+6	office_phone	varchar(45)	_ai_ci	YES	NULL			
+7	other_phone	varchar(45)	_ai_ci	YES	NULL			
+10	address	varchar(100)	_ai_ci	NO	NULL			
+13	province	varchar(45)	_ai_ci	YES	NULL			
+11	location	varchar(45)	_ai_ci	YES	NULL			
+12	zp	varchar(45)	utf8mb4	ES	NULL			
+15	locker	tinyint		
+14	other_job	varchar(45)	_ai_ci	YES	NULL			
+16	income	varchar(100)	_ai_ci	YES	NULL			
+17	sub_organizer	varchar(45)	_ai_ci	YES	NULL			
+18	executive	varchar(45)	_ai_ci	YES	NULL			
+19	note	varchar(500)	_ai_ci	YES	NULL			
+20	image	varchar(250)	_ai_ci	YES	NULL			
+21	created_at	datetime	
+22	updated_at	datetime	
+
+1	id	int	NULL	NULL	NO	NULL	auto_increment		
+2	id_producer	int	NULL	NULL	NO	NULL		producers(id)	
+3	id_company	int	NULL	NULL	NO	NULL		companies(id)	
+4	cod_producer	varchar(45)	utf8mb4	utf8mb4_0900_ai_ci	YES	NULL			
+5	created_at	datetime	NULL	NULL	NO	NULL			
+6	updated_at	datetime	NULL	NULL	NO	NULL			

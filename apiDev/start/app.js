@@ -21,6 +21,8 @@ const providers = [
   '@adonisjs/auth/providers/AuthProvider'
 ]
 
+
+
 /*
 |--------------------------------------------------------------------------
 | Ace Providers
@@ -34,9 +36,7 @@ const aceProviders = [
   '@adonisjs/lucid/providers/MigrationsProvider'
 ]
 
-const providers = [
-  '@adonisjs/lucid/providers/LucidProvider'
-]
+
 
 
 /*

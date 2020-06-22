@@ -1,0 +1,220 @@
+
+
+.divCenter {
+    text-align:center;
+    }
+
+.bspace {
+    margin:0px auto;
+}
+
+.fileUpload {
+    margin-top: 10px;
+    font-family:"Nunito";
+    /* font-size: .8em; */
+}
+
+.logoinva {
+    max-width: 80%;
+    height: auto;
+    display:block;
+    }
+
+#compa {
+    margin-top: 10px;
+    font-family:"Nunito";
+    /* font-size: small; */
+}
+
+/* estilo para lista2.html */
+.rg {
+    overflow: hidden;
+}
+
+#FormRegCompanies {
+    display: none;
+}
+
+#btnEnd {
+    display: none;
+}
+
+.glyphicon-lg
+{
+    font-size:4em
+}
+.info-block
+{
+    border-right:5px solid #E6E6E6;margin-bottom:25px
+}
+.info-block .square-box
+{
+    width:100px;height:100px;margin-right:22px;text-align:center!important;background-color:#676767;
+}
+.info-block.block-info
+{
+    border-color:#20819e
+}
+.info-block.block-info .square-box
+{
+    background-color:#20819e;color:#FFF
+}
+
+.jacjac {
+float: left;
+}
+
+.orfn {
+display: block;
+width:100%;
+
+}
+
+.lastN {
+margin-left: -6px;    
+}
+
+.margIcon {
+    margin-right: 8px;
+    margin-top: 2px;
+}
+
+.butt-prof {
+    float: right;
+    }
+
+.code {
+    float: left;
+}
+
+/* #imgCard {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+    max-height: 100%;
+    height: 80%;
+    object-fit: cover;
+  } */
+
+  #imgDiv { 
+    /* margin: 10px;  */
+    width: 115px; 
+    height: 115px; 
+    line-height: 115px; 
+    text-align: center; 
+     /* border: 1px solid red;  */
+} 
+#imgCard { 
+    max-width:100%; 
+    max-height:100%; 
+    vertical-align: middle; 
+} 
+
+
+/* fin de estilo para lista2.html */
+
+/* Estilo para list3.html */
+.emp-profile{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+.profile-img{
+    text-align: center;
+}
+.profile-img img{
+    width: 70%;
+    height: 100%;
+}
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+.profile-head h5{
+    color: #333;
+}
+.profile-head h6{
+    color: #0062cc;
+}
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+}
+.proile-rating{
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+.proile-rating span{
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+.profile-work{
+    padding: 14%;
+    margin-top: -15%;
+}
+.profile-work p{
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.profile-work a{
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+.profile-work ul{
+    list-style: none;
+}
+.profile-tab label{
+    font-weight: 600;
+}
+.profile-tab p{
+    font-weight: 600;
+    color: #0062cc;
+}
+/* fin de estilo para list3.html */
+
+/* input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+  }
+  input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+    content: "";
+  } */
