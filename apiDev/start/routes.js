@@ -20,9 +20,12 @@ const UserController = require('../app/Controllers/Http/UserController')
 const Route = use('Route')
 
 // Route.on('/').render('welcome')
-Route.on('/').render('login')
+// Route.on('/').render('login')
+Route.get('register', ({ view }) => {
+    return view.render('register')
+  })
 
 Route.group(() => {
 Route.post('users/register', 'UserController.store')
-Route.get('users/reg', 'UserController.store')
+
 }).prefix('api/v1/');

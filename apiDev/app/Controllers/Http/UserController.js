@@ -1,11 +1,17 @@
 'use strict'
 
+const User = use('App/Models/User');
+
 class UserController {
-    store(){
-        return {
-            mensaje:'Usuario creado con exito'
+    store({request}){
+       const {username, email, password} = request.all()
+       const user = User.create({
+        username,
+        email,
+        password
+       })
         };
-    };
-}
+    }
+
 
 module.exports = UserController
